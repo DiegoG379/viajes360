@@ -2,19 +2,13 @@
     position: relative;
     bottom: 0;
     width: 100%;
+    font-family: Nova Flat;
 }
 
 .estilos-footer-superior{
     height: 90px;
     background-color: #00BBE3;
 
-}
-
-.estilos-footer-inferior{
-    text-align: center;
-    height: 30px;
-    color: #ededed;
-    background-color: #003355;
 }
 
 .redes-iconos-footer{
@@ -46,4 +40,10 @@
     text-align: end;
     margin: -5px;
     color: #ededed;
+}
+
+.estilos-footer-inferior{
+    height: 30px;
+    color: #ededed;
+    background-color: #003355;
 }

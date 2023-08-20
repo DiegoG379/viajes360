@@ -7,6 +7,7 @@
 }
 
 .barra-navegacion-titulo{
+    font-family: Fredericka the Great;
     text-align: left;
     font-weight: bold;
     font-size: 65px;
@@ -16,7 +17,8 @@
     margin: 5px;
     text-align: center;
     font-weight: bold;
-    font-size: 22px;    
+    font-size: 22px;
+    font-family: Nova Flat;    
 }
 
 .barra-navegacion-enlaces-texto{

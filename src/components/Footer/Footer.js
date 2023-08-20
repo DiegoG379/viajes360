@@ -28,7 +28,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div> 
-            <div className='estilos-footer-inferior'>
+            <div className='estilos-footer-inferior d-flex justify-content-center align-items-center'>
                 Diego García © 2023. Todos los derechos reservados.
             </div>
         </footer>

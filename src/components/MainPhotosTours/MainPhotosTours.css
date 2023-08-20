@@ -1,0 +1,13 @@
+.estilos-imagenes-inicio{
+    margin: 10px;
+    width: 100%;
+    border-bottom: 2px solid #003355;
+    box-shadow: 0px 8px 8px #003355;
+    opacity: 0.7;
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.estilos-imagenes-inicio:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
