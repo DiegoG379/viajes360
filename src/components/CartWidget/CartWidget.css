@@ -1,0 +1,10 @@
+.carrito-logo{
+    height: 48px;
+    width: 48px;
+}
+
+.color-item-carrito{
+    color: #003355;
+    font-weight: bold;
+    font-size: 25px;
+}

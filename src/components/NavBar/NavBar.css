@@ -1,0 +1,30 @@
+.barra-navegacion {
+    background-color: white;
+    border-bottom: 2px solid #003355;
+    box-shadow: 0px 8px 8px #003355;
+    height: 140px;
+    width: 100%;
+}
+
+.barra-navegacion-titulo{
+    text-align: left;
+    font-weight: bold;
+    font-size: 65px;
+}
+
+.barra-navegacion-enlaces{
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;    
+}
+
+.barra-navegacion-enlaces-texto{
+    color: #003355 !important;
+}
+
+.barra-navegacion-enlaces-texto:hover{
+    color: #00BBE3 !important;
+    border-bottom: 2px solid #003355;
+    background-color: #ededed;
+}

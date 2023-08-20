@@ -1,0 +1,18 @@
+.contenedor-articulo-inicio{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-bottom: 2px solid #003355;
+    box-shadow: 0px 8px 8px #003355;
+}
+
+.articulo-titulo-inicio{
+    margin: 5px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.articulo-parrafo-inicio{
+    text-align: center;
+    font-size: 18px;
+}
