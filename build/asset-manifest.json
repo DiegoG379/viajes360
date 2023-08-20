@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/diegog379.github.io/viajes360/static/css/main.54113e98.css",
-    "main.js": "/diegog379.github.io/viajes360/static/js/main.4ac56527.js",
-    "static/js/787.77abdc39.chunk.js": "/diegog379.github.io/viajes360/static/js/787.77abdc39.chunk.js",
-    "static/media/fa-solid-900.ttf": "/diegog379.github.io/viajes360/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
-    "static/media/fa-brands-400.ttf": "/diegog379.github.io/viajes360/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
-    "static/media/fa-solid-900.woff2": "/diegog379.github.io/viajes360/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
-    "static/media/logo360.png": "/diegog379.github.io/viajes360/static/media/logo360.f01ca4f20d03648ed477.png",
-    "static/media/fa-brands-400.woff2": "/diegog379.github.io/viajes360/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
-    "static/media/fa-regular-400.ttf": "/diegog379.github.io/viajes360/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
-    "static/media/fa-regular-400.woff2": "/diegog379.github.io/viajes360/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
-    "static/media/fa-v4compatibility.ttf": "/diegog379.github.io/viajes360/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
-    "static/media/fa-v4compatibility.woff2": "/diegog379.github.io/viajes360/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
-    "static/media/Cart.svg": "/diegog379.github.io/viajes360/static/media/Cart.73111b1a38aea707b052cb3b4687d74b.svg",
-    "index.html": "/diegog379.github.io/viajes360/index.html",
-    "main.54113e98.css.map": "/diegog379.github.io/viajes360/static/css/main.54113e98.css.map",
-    "main.4ac56527.js.map": "/diegog379.github.io/viajes360/static/js/main.4ac56527.js.map",
-    "787.77abdc39.chunk.js.map": "/diegog379.github.io/viajes360/static/js/787.77abdc39.chunk.js.map"
+    "main.css": "/viajes360/static/css/main.11fbc573.css",
+    "main.js": "/viajes360/static/js/main.8f94a5ec.js",
+    "static/js/787.77abdc39.chunk.js": "/viajes360/static/js/787.77abdc39.chunk.js",
+    "static/media/fa-solid-900.ttf": "/viajes360/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/fa-brands-400.ttf": "/viajes360/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/viajes360/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/logo360.png": "/viajes360/static/media/logo360.f01ca4f20d03648ed477.png",
+    "static/media/fa-brands-400.woff2": "/viajes360/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/viajes360/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/fa-regular-400.woff2": "/viajes360/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/fa-v4compatibility.ttf": "/viajes360/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/viajes360/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "static/media/Cart.svg": "/viajes360/static/media/Cart.73111b1a38aea707b052cb3b4687d74b.svg",
+    "index.html": "/viajes360/index.html",
+    "main.11fbc573.css.map": "/viajes360/static/css/main.11fbc573.css.map",
+    "main.8f94a5ec.js.map": "/viajes360/static/js/main.8f94a5ec.js.map",
+    "787.77abdc39.chunk.js.map": "/viajes360/static/js/787.77abdc39.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54113e98.css",
-    "static/js/main.4ac56527.js"
+    "static/css/main.11fbc573.css",
+    "static/js/main.8f94a5ec.js"
   ]
 }
