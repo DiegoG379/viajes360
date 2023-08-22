@@ -4,7 +4,7 @@ import './NavBar.css';
 
 const NavBar = () => {
     return (
-        <nav className='navbar barra-navegacion navbar-expand-lg container-fluid row' style={{ margin: '0' }}>
+        <nav className='navbar barra-navegacion navbar-expand-lg container-fluid row fondo-barra-navegacion' style={{ margin: '0' }}>
             <div className='col-2'>
                 <img src={logo} alt="logo" style={{ width: '150px', height: 'auto' }}></img>
             </div>
