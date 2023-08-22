@@ -1,11 +1,32 @@
 .carrito-logo{
-    height: 48px;
-    width: 48px;
+    height: 40px;
+    width: 40px;
 }
 
 .color-item-carrito{
+    width: 70px;
+    height: 70px;
     color: #003355;
     font-weight: bold;
     font-size: 25px;
     font-family: Nova Flat;
+    background-color: #ededed;
+    border: #003355 solid 3px;
+    border-radius: 50%;
+}
+
+.color-item-carrito:hover{
+    color: #ededed;
+    background-color: #003355;
+    border-radius: 50%;
+    border: solid #00BBE3 2px;
+    animation: shake 0.3s;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-3px) rotate(10deg); }
+    50% { transform: translateX(3px) rotate(-10deg); }
+    75% { transform: translateX(-3px) rotate(10deg); }
+    100% { transform: translateX(3px) rotate(-10deg); }
 }

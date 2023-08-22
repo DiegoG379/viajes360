@@ -1,3 +1,10 @@
+.fondo-barra-navegacion {
+    background-image: linear-gradient(to left, transparent, rgba(255, 255, 255, 1)), url('./assets/BotesTanzania.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
 .barra-navegacion {
     background-color: white;
     border-bottom: 2px solid #003355;
@@ -10,7 +17,7 @@
     font-family: Fredericka the Great;
     text-align: left;
     font-weight: bold;
-    font-size: 65px;
+    font-size: 75px;
 }
 
 .barra-navegacion-enlaces{
