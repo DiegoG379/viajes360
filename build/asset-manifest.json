@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/viajes360/static/css/main.761dd628.css",
-    "main.js": "/viajes360/static/js/main.4740bf2b.js",
-    "static/js/787.77abdc39.chunk.js": "/viajes360/static/js/787.77abdc39.chunk.js",
-    "static/media/ArgentinaFotoInicio.png": "/viajes360/static/media/ArgentinaFotoInicio.5a08e6fbc07ff4a85ada.png",
-    "static/media/TurquiaFotoInicio.png": "/viajes360/static/media/TurquiaFotoInicio.69fb5d922277aff41c33.png",
-    "static/media/EgiptoFotoInicio.png": "/viajes360/static/media/EgiptoFotoInicio.8d2e3618021672b8fd07.png",
-    "static/media/fa-solid-900.ttf": "/viajes360/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
-    "static/media/fa-brands-400.ttf": "/viajes360/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
-    "static/media/fa-solid-900.woff2": "/viajes360/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
-    "static/media/BotesTanzania.jpg": "/viajes360/static/media/BotesTanzania.9804a2b1477836e88f2b.jpg",
-    "static/media/logo360.png": "/viajes360/static/media/logo360.f01ca4f20d03648ed477.png",
-    "static/media/fa-brands-400.woff2": "/viajes360/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
-    "static/media/fa-regular-400.ttf": "/viajes360/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
-    "static/media/fa-regular-400.woff2": "/viajes360/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
-    "static/media/fa-v4compatibility.ttf": "/viajes360/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
-    "static/media/fa-v4compatibility.woff2": "/viajes360/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
-    "static/media/Cart.svg": "/viajes360/static/media/Cart.73111b1a38aea707b052cb3b4687d74b.svg",
-    "index.html": "/viajes360/index.html",
-    "main.761dd628.css.map": "/viajes360/static/css/main.761dd628.css.map",
-    "main.4740bf2b.js.map": "/viajes360/static/js/main.4740bf2b.js.map",
-    "787.77abdc39.chunk.js.map": "/viajes360/static/js/787.77abdc39.chunk.js.map"
+    "main.css": "/static/css/main.59daecdf.css",
+    "main.js": "/static/js/main.614b26fd.js",
+    "static/js/787.77abdc39.chunk.js": "/static/js/787.77abdc39.chunk.js",
+    "static/media/ArgentinaFotoInicio.png": "/static/media/ArgentinaFotoInicio.5a08e6fbc07ff4a85ada.png",
+    "static/media/TurquiaFotoInicio.png": "/static/media/TurquiaFotoInicio.69fb5d922277aff41c33.png",
+    "static/media/EgiptoFotoInicio.png": "/static/media/EgiptoFotoInicio.8d2e3618021672b8fd07.png",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/BotesTanzania.jpg": "/static/media/BotesTanzania.9804a2b1477836e88f2b.jpg",
+    "static/media/logo360.png": "/static/media/logo360.f01ca4f20d03648ed477.png",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "static/media/Cart.svg": "/static/media/Cart.73111b1a38aea707b052cb3b4687d74b.svg",
+    "index.html": "/index.html",
+    "main.59daecdf.css.map": "/static/css/main.59daecdf.css.map",
+    "main.614b26fd.js.map": "/static/js/main.614b26fd.js.map",
+    "787.77abdc39.chunk.js.map": "/static/js/787.77abdc39.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.761dd628.css",
-    "static/js/main.4740bf2b.js"
+    "static/css/main.59daecdf.css",
+    "static/js/main.614b26fd.js"
   ]
 }
