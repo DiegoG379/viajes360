@@ -1,8 +1,9 @@
+import logo from '../LogoViajes360/logo360.png';
+import './Footer.css';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-
-import logo from '../LogoViajes360/logo360.png'
-import './Footer.css'
+import {Link} from 'react-router-dom';
 
 const Footer = () => {
     return(
@@ -17,7 +18,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className='col-4 d-flex justify-content-center align-items-center'>
-                    <img src={logo} alt="logo" style={{ width: '93px', height: 'auto' }}></img>
+                    <Link to='/'><img src={logo} alt="logo" style={{ width: '93px', height: 'auto' }}></img></Link>
                 </div>
                 <div className='col-4 d-flex justify-content-end align-items-center'>
                     <div className='direccion-footer text-nowrap vertical-text' style={{ margin: '0', padding: '0' }}>
