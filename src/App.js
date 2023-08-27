@@ -2,6 +2,7 @@ import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import HomePageItems from './components/HomePageItems/HomePageItems';
 import ContactPageItems from './components/ContactPageItems/ContactPageItems';
+import PageNotFound from './components/PageNotFound/PageNotFound';
 import Footer from './components/Footer/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
@@ -13,7 +14,7 @@ function App() {
           <Routes>
             <Route path='/' element={<HomePageItems/>}/>
             <Route path='/contacto' element={<ContactPageItems/>}/>
-            <Route path='*' element={<h1>404 NOT FOUND</h1>}/>
+            <Route path='*' element={<PageNotFound/>}/>
           </Routes>
         <Footer/>
       </BrowserRouter>

@@ -27,36 +27,3 @@
     font-weight: bold;
     font-size: 22px;
 }
-
-.camposEntrada{
-    font-size: 22px;
-    text-align: center;
-    color: #00BBE3;
-    border: #00BBE3 solid 3px;
-    border-bottom: 2px solid #003355;
-    box-shadow: 0px 8px 8px #003355;
-    background-color: #ededed;
-}
-
-.camposEntrada::placeholder {
-    color: #003355;
-    font-weight: bold;
-    font-size: 22px;
-}
-
-.botonContacto{
-    width: 40px;
-    height: 20px;
-    padding-bottom: 35px;
-    color: #00BBE3;
-    border: #00BBE3 solid 3px;
-    border-bottom: 2px solid #003355;
-    box-shadow: 0px 8px 8px #003355;
-    background-color: #ededed;
-}
-
-.botonContacto:hover{
-    color: #ededed;
-    background-color: #003355;
-    border: solid #00BBE3 2px;
-}
