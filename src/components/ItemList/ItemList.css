@@ -1,0 +1,5 @@
+.contenedor-tarjetas-productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

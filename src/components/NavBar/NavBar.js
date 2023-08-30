@@ -21,7 +21,7 @@ const NavBar = () => {
                         <Link to='/' className="nav-link barra-navegacion-enlaces-texto">Inicio</Link>
                     </li>
                     <li className="nav-item col-3 barra-navegacion-enlaces">
-                        <NavLink to="/" href="/Tours" className="nav-link barra-navegacion-enlaces-texto">Tours</NavLink>
+                        <NavLink to="/tours" href="/Tours" className="nav-link barra-navegacion-enlaces-texto">Tours</NavLink>
                     </li>
                     <li className="nav-item col-3 barra-navegacion-enlaces">
                         <NavLink to={`/contacto`} className="nav-link barra-navegacion-enlaces-texto">Contacto</NavLink>

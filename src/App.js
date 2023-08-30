@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import HomePageItems from './components/HomePageItems/HomePageItems';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import ContactPageItems from './components/ContactPageItems/ContactPageItems';
 import PageNotFound from './components/PageNotFound/PageNotFound';
 import Footer from './components/Footer/Footer';
@@ -13,6 +14,7 @@ function App() {
         <NavBar/>
           <Routes>
             <Route path='/' element={<HomePageItems/>}/>
+            <Route path='/tours' element={<ItemListContainer titulo={'Nuestros Tours'}/>}/>
             <Route path='/contacto' element={<ContactPageItems/>}/>
             <Route path='*' element={<PageNotFound/>}/>
           </Routes>

@@ -1,0 +1,19 @@
+.contenedor-pagina-tours{
+    min-height: calc(100vh - 260px);
+}
+
+.tours-titulo{
+    text-align: center;
+    padding: 35px;
+    color: #00BBE3;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Fredericka the Great;
+}
+
+.tours-parrafo{
+    text-align: center;
+    font-family: Nova Flat;
+    font-size: 21px;
+    color: #003355;
+}
