@@ -1,12 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.59daecdf.css",
-    "main.js": "/static/js/main.614b26fd.js",
+    "main.css": "/static/css/main.ef866d92.css",
+    "main.js": "/static/js/main.c5245ab5.js",
     "static/js/787.77abdc39.chunk.js": "/static/js/787.77abdc39.chunk.js",
-    "static/media/ArgentinaFotoInicio.png": "/static/media/ArgentinaFotoInicio.5a08e6fbc07ff4a85ada.png",
-    "static/media/TurquiaFotoInicio.png": "/static/media/TurquiaFotoInicio.69fb5d922277aff41c33.png",
-    "static/media/EgiptoFotoInicio.png": "/static/media/EgiptoFotoInicio.8d2e3618021672b8fd07.png",
+    "static/media/paris.webp": "/static/media/paris.5e39682a5d0db72bef3a.webp",
+    "static/media/florianopolis.webp": "/static/media/florianopolis.029926622373f558f1e1.webp",
+    "static/media/turquia.webp": "/static/media/turquia.6ab061c09a1e8ed6f370.webp",
+    "static/media/egipto.webp": "/static/media/egipto.60098f8ceb979d83d45a.webp",
+    "static/media/nashville.webp": "/static/media/nashville.371bec43dd8700e379a9.webp",
+    "static/media/cataratas.webp": "/static/media/cataratas.db0183fded1f9b396690.webp",
+    "static/media/dubai.webp": "/static/media/dubai.fef77eda7cedeaf14540.webp",
+    "static/media/zanzibar.webp": "/static/media/zanzibar.d08ab7eb86db3b9fa54d.webp",
+    "static/media/ArgentinaFotoInicio.webp": "/static/media/ArgentinaFotoInicio.a9c7ac05cab0dbc9e559.webp",
+    "static/media/ushuaia.webp": "/static/media/ushuaia.1f9f89297f74a25151da.webp",
+    "static/media/TurquiaFotoInicio.webp": "/static/media/TurquiaFotoInicio.865ab9250bc1ed21aadf.webp",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/EgiptoFotoInicio.webp": "/static/media/EgiptoFotoInicio.c71f088dd0a51b6cc5f4.webp",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
     "static/media/BotesTanzania.jpg": "/static/media/BotesTanzania.9804a2b1477836e88f2b.jpg",
@@ -18,12 +27,12 @@
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "static/media/Cart.svg": "/static/media/Cart.73111b1a38aea707b052cb3b4687d74b.svg",
     "index.html": "/index.html",
-    "main.59daecdf.css.map": "/static/css/main.59daecdf.css.map",
-    "main.614b26fd.js.map": "/static/js/main.614b26fd.js.map",
+    "main.ef866d92.css.map": "/static/css/main.ef866d92.css.map",
+    "main.c5245ab5.js.map": "/static/js/main.c5245ab5.js.map",
     "787.77abdc39.chunk.js.map": "/static/js/787.77abdc39.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59daecdf.css",
-    "static/js/main.614b26fd.js"
+    "static/css/main.ef866d92.css",
+    "static/js/main.c5245ab5.js"
   ]
 }

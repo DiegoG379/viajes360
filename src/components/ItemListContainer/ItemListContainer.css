@@ -2,6 +2,25 @@
     min-height: calc(100vh - 260px);
 }
 
+.contenedor-pagina-tours-links{
+    background-color: #ededed;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contenedor-pagina-tours-categorias{
+    color: #003355;
+    border-bottom: 2px solid #ededed !important;    
+    font-family: Nova Flat;
+    margin: 20px 20px 10px 20px;
+}
+
+.contenedor-pagina-tours-categorias:hover{
+    color: #00BBE3 !important;
+    border-bottom: 2px solid #003355 !important;
+    background-color: #ededed;
+}
+
 .tours-titulo{
     text-align: center;
     padding: 35px;
