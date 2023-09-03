@@ -1,0 +1,37 @@
+.contenedor-contador{
+    margin: 10px auto 10px auto;
+    font-family: Nova Flat;
+    font-size: 20px;
+}
+
+.boton-contador{
+    margin: auto 7px auto 7px;
+    font-family: Nova Flat;
+    font-size: 20px;
+    color: #ededed;
+    background-color: #00BBE3;
+    border: #003355 solid 3px;
+    text-decoration: none;
+}
+
+.boton-contador:hover{
+    color: #ededed;
+    background-color: #003355;
+    border: solid #00BBE3 3px;
+}
+
+.boton-carrito-contador{
+    margin: 7px;
+    font-family: Nova Flat;
+    font-size: 20px;
+    color: #ededed;
+    background-color: #003355;
+    border: #00BBE3 solid 3px;
+    text-decoration: none;
+}
+
+.boton-carrito-contador:hover{
+    color: #ededed;
+    background-color: #00BBE3;
+    border: solid #003355 3px;
+}

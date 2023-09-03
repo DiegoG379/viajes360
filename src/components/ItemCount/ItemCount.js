@@ -17,15 +17,11 @@ const ItemCount = ({disponibilidad, inicial, onAdd}) => {
     }
     
     return(
-        <div>
-            <div>
-                <button onClick={decrementar}>-</button>
-                <h4>{cantidad}</h4>
-                <button onClick={incrementar}>+</button>
-            </div>
-            <div>
-                <button onClick={() => onAdd(cantidad)} disabled={!disponibilidad}>Agregar al carrito</button>
-            </div>
+        <div className='contenedor-contador' style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <button className='boton-contador' onClick={decrementar}>-</button>
+            <h4>{cantidad}</h4>
+            <button className='boton-contador' onClick={incrementar}>+</button>
+            <button className='boton-carrito-contador' onClick={() => onAdd(cantidad)} disabled={!disponibilidad}>Agregar al carrito</button>
         </div>
     )
 };

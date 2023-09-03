@@ -42,11 +42,13 @@
 }
 
 .tarjeta-item-tour-boton{
+    padding: 5px;
     font-family: Nova Flat;
     font-size: 20px;
     color: #ededed;
     background-color: #00BBE3;
     border: #003355 solid 3px;
+    text-decoration: none;
 }
 
 .tarjeta-item-tour-boton:hover{
