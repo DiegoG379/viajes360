@@ -1,4 +1,4 @@
-import './HomeArticle.css';
+import './HomeArticle.css'
 
 const HomeArticle = ({ subtitulo, parrafoUno, parrafoDos, parrafoTres}) => {
     return(

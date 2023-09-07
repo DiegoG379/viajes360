@@ -1,4 +1,4 @@
-import './PageNotFound.css';
+import './PageNotFound.css'
 
 const PageNotFound = () => {
     return(
@@ -14,4 +14,4 @@ const PageNotFound = () => {
     )    
 }
 
-export default PageNotFound;
+export default PageNotFound

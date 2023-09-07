@@ -1,7 +1,7 @@
-import './ItemDetail.css';
+import './ItemDetail.css'
 import ItemCount from '../ItemCount/ItemCount'
 
-const ItemDetail = ({ nombre, precio, descripcion, imagen, disponibilidad, regimen, hotel, itinerario, opcionalUno, opcionalDos, opcionalTres, preciOpcionalUno, preciOpcionalDos, preciOpcionalTres, disponibilidadOpcionales }) => {
+const ItemDetail = ({ nombre, precio, descripcion, imagen, disponibilidad, fecha, regimen, hotel, itinerario, opcionalUno, opcionalDos, opcionalTres, preciOpcionalUno, preciOpcionalDos, preciOpcionalTres, disponibilidadOpcionales }) => {
     return (
         <div className='contenedor-detalles-item'>
             <div className='container-fluid row'>
@@ -59,6 +59,7 @@ const ItemDetail = ({ nombre, precio, descripcion, imagen, disponibilidad, regim
                                 </table>
                             </div> 
                             <p className='detalles-item-disponibilidad'>Lugares disponibles para este viaje: {disponibilidad}</p>
+                            <p className='detalles-item-disponibilidad'>Fecha programada para el próximo viaje: {fecha}</p>
                             <div className='row d-flex justify-content-center align-items-center'>
                             <div className='col-6'>
                             <p className='detalles-item-opcionales-actividades'>Reservá esta excursión!!</p>
@@ -81,4 +82,4 @@ const ItemDetail = ({ nombre, precio, descripcion, imagen, disponibilidad, regim
     );
 };
 
-export default ItemDetail;
+export default ItemDetail

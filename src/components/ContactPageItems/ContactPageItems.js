@@ -1,4 +1,4 @@
-import './ContactPageItems.css';
+import './ContactPageItems.css'
 
 const ContactPageItems = () => {
     return (

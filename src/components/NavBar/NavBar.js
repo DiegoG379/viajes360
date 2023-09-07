@@ -1,7 +1,7 @@
+import {Link, NavLink} from 'react-router-dom'
 import logo from '../LogoViajes360/logo360.png'
-import CartWidget from '../CartWidget/CartWidget';
-import './NavBar.css';
-import {Link, NavLink} from 'react-router-dom';
+import CartWidget from '../CartWidget/CartWidget'
+import './NavBar.css'
 
 const NavBar = () => {
     return (
@@ -18,13 +18,14 @@ const NavBar = () => {
             <div className='col-5'>
                 <ul className="nav container-fluid row justify-content-center" style={{ margin: '0' }}>
                     <li className="nav-item col-3 barra-navegacion-enlaces">
-                        <Link to='/' className="nav-link barra-navegacion-enlaces-texto">Inicio</Link>
+                        <NavLink to='/' className={({isActive}) => `nav-link barra-navegacion-enlaces-texto ${isActive ? 'active' : ''} `}>Inicio</NavLink>
                     </li>
                     <li className="nav-item col-3 barra-navegacion-enlaces">
-                        <NavLink to="/tours" href="/Tours" className="nav-link barra-navegacion-enlaces-texto">Tours</NavLink>
+                        <NavLink to="/tours" className={({isActive}) => `nav-link barra-navegacion-enlaces-texto ${isActive ? 'active' : ''} `}>Tours</NavLink>
                     </li>
                     <li className="nav-item col-3 barra-navegacion-enlaces">
-                        <NavLink to={`/contacto`} className="nav-link barra-navegacion-enlaces-texto">Contacto</NavLink>
+                    <NavLink to={`/contacto`} className={({isActive}) => `nav-link barra-navegacion-enlaces-texto ${isActive ? 'active' : ''} `}>Contacto</NavLink>
+
                     </li>
                 </ul>
             </div>

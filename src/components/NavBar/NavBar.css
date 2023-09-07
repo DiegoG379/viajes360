@@ -36,3 +36,10 @@
     border-bottom: 2px solid #003355;
     background-color: #ededed;
 }
+
+.barra-navegacion-enlaces-texto.active {
+    color: #00BBE3 !important;
+    border-bottom: 2px solid #003355;
+    background-color: rgba(237, 237, 237, 0.7);
+    box-shadow: 0px 8px 8px #003355;
+}

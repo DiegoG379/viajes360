@@ -1,4 +1,4 @@
-import './TravelStatistics.css';
+import './TravelStatistics.css'
 
 const TravelStatistics = () => {
     return(

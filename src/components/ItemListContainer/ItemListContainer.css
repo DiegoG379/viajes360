@@ -8,14 +8,28 @@
     font-weight: bold;
 }
 
+.contenedor-pagina-tours-parrafo{
+    color: #00BBE3;
+    border-bottom: 2px solid #ededed !important;    
+    font-family: Nova Flat;
+    font-weight: bold;
+    margin: 15px 15px 10px 15px;
+}
+
 .contenedor-pagina-tours-categorias{
     color: #003355;
     border-bottom: 2px solid #ededed !important;    
     font-family: Nova Flat;
-    margin: 20px 20px 10px 20px;
+    margin: 15px 15px 10px 15px;
 }
 
 .contenedor-pagina-tours-categorias:hover{
+    color: #00BBE3 !important;
+    border-bottom: 2px solid #003355 !important;
+    background-color: #ededed;
+}
+
+.contenedor-pagina-tours-categorias.active{
     color: #00BBE3 !important;
     border-bottom: 2px solid #003355 !important;
     background-color: #ededed;

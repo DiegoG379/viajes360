@@ -1,5 +1,5 @@
-import './Item.css';
-import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom'
+import './Item.css'
 
 const Item = ({id, nombre, precio, imagen, disponibilidad, categoria}) => {
     return(
@@ -14,7 +14,7 @@ const Item = ({id, nombre, precio, imagen, disponibilidad, categoria}) => {
                 <p>USD <span className='tarjeta-item-tour-span'>{precio}</span></p>
                 <p>Lugares disponibles: {disponibilidad}</p>
             </section>
-            <Link to={`/tours/${categoria}/${id}`} className='tarjeta-item-tour-boton'>
+            <Link to={`/tours/item/${id}`} className='tarjeta-item-tour-boton'>
                 Ver más
             </Link>
         </article>
