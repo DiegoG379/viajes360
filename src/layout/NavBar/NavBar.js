@@ -1,6 +1,6 @@
 import {Link, NavLink} from 'react-router-dom'
-import logo from '../LogoViajes360/logo360.png'
-import CartWidget from '../CartWidget/CartWidget'
+import logo from '../../assets/images/logo360.png'
+import CartWidget from '../../components/CartWidget/CartWidget'
 import './NavBar.css'
 
 const NavBar = () => {

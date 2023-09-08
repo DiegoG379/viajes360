@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import NavBar from './components/NavBar/NavBar'
-import HomePageItems from './components/HomePageItems/HomePageItems'
+import NavBar from './layout/NavBar/NavBar'
+import HomePage from './pages/HomePage/HomePage'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
-import ContactPageItems from './components/ContactPageItems/ContactPageItems'
-import PageNotFound from './components/PageNotFound/PageNotFound'
-import Footer from './components/Footer/Footer'
+import ContactPageItems from './pages/ContactPageItems/ContactPageItems'
+import PageNotFound from './pages/PageNotFound/PageNotFound'
+import Footer from './layout/Footer/Footer'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
 
 
@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter>
         <NavBar/>
           <Routes>
-            <Route path='/' element={<HomePageItems/>}/>
+            <Route path='/' element={<HomePage/>}/>
             <Route path='/tours/' element={<ItemListContainer titulo={'Nuestros Tours'}/>}/>
             <Route path='/tours/category/:categoryId' element={<ItemListContainer titulo={'Nuestros Tours'}/>}/>
             <Route path='/tours/item/:itemId' element={<ItemDetailContainer/>}/>

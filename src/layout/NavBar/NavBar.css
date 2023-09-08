@@ -1,5 +1,5 @@
 .fondo-barra-navegacion {
-    background-image: linear-gradient(to left, transparent, rgba(255, 255, 255, 1)), url('./assets/BotesTanzania.jpg');
+    background-image: linear-gradient(to left, transparent, rgba(255, 255, 255, 1)), url('../../assets/images/BotesTanzania.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;

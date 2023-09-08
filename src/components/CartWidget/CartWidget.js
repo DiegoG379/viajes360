@@ -1,4 +1,4 @@
-import Cart from './assets/Cart.svg'
+import Cart from '../../assets/images/Cart.svg'
 import './CartWidget.css'
 
 const CartWidget = () => {

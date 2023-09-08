@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
-import ArgentinaFotoInicio from './assets/ArgentinaFotoInicio.webp'
-import EgiptoFotoInicio from './assets/EgiptoFotoInicio.webp'
-import TurquiaFotoInicio from './assets/TurquiaFotoInicio.webp'
+import ArgentinaFotoInicio from '../../assets/images/homePhotos/ArgentinaFotoInicio.webp'
+import EgiptoFotoInicio from '../../assets/images/homePhotos/EgiptoFotoInicio.webp'
+import TurquiaFotoInicio from '../../assets/images/homePhotos/TurquiaFotoInicio.webp'
 import './MainPhotosTours.css'
 
 const MainPhotosTours = () => {
