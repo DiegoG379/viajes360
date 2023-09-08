@@ -1,7 +1,7 @@
 # 💫 About Me:
-En esta primera entrega de mi proyecto para el curso de ReactJS en Coderhouse, presento Viajeros360, mi sitio web de e-commerce especializado en la venta de excursiones y experiencias de viaje. Donde el usuario simulará estar en una página de viajes y podrá simular la compra de tours y agregar excursiones opcionales en su destino.
+En esta segunda entrega de mi proyecto para el curso de ReactJS en Coderhouse, presento Viajeros360, mi sitio web de e-commerce especializado en la venta de excursiones y experiencias de viaje. Donde el usuario simulará estar en una página de viajes y podrá simular la compra de tours y agregar excursiones opcionales en su destino.
 
-He utilizado tecnología de React y Bootstrap, junto con la librería de Font Awesome para mejorar la experiencia visual del sitio.
+He utilizado tecnología de React y Bootstrap, junto con la librería de Font Awesome, para mejorar la experiencia visual del sitio. Además, he implementado una API de conversión de divisas y he incorporado React Router DOM para garantizar una navegación suave y organizada en todo el sitio.
 
 
 ## 🌐 Socials:
