@@ -25,7 +25,6 @@ const NavBar = () => {
                     </li>
                     <li className="nav-item col-3 barra-navegacion-enlaces">
                     <NavLink to={`/contacto`} className={({isActive}) => `nav-link barra-navegacion-enlaces-texto ${isActive ? 'active' : ''} `}>Contacto</NavLink>
-
                     </li>
                 </ul>
             </div>

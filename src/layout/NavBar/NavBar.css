@@ -43,3 +43,16 @@
     background-color: rgba(237, 237, 237, 0.7);
     box-shadow: 0px 8px 8px #003355;
 }
+
+.barra-navegacion-login{
+    color: #003355;
+    margin: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.barra-navegacion-login:hover{
+    color: #00BBE3 !important;
+    border-bottom: 2px solid #003355;
+    background-color: #ededed;
+}

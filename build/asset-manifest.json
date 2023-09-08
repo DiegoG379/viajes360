@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.ef866d92.css",
-    "main.js": "/static/js/main.c5245ab5.js",
+    "main.css": "/static/css/main.d2f964ab.css",
+    "main.js": "/static/js/main.303d08aa.js",
     "static/js/787.77abdc39.chunk.js": "/static/js/787.77abdc39.chunk.js",
     "static/media/paris.webp": "/static/media/paris.5e39682a5d0db72bef3a.webp",
     "static/media/florianopolis.webp": "/static/media/florianopolis.029926622373f558f1e1.webp",
+    "static/media/humahuaca.webp": "/static/media/humahuaca.4eead3c8fd7405776745.webp",
     "static/media/turquia.webp": "/static/media/turquia.6ab061c09a1e8ed6f370.webp",
     "static/media/egipto.webp": "/static/media/egipto.60098f8ceb979d83d45a.webp",
     "static/media/nashville.webp": "/static/media/nashville.371bec43dd8700e379a9.webp",
     "static/media/cataratas.webp": "/static/media/cataratas.db0183fded1f9b396690.webp",
+    "static/media/españa.webp": "/static/media/españa.bb02d8144512a5fbfdfe.webp",
     "static/media/dubai.webp": "/static/media/dubai.fef77eda7cedeaf14540.webp",
+    "static/media/uganda.webp": "/static/media/uganda.69711d77ec1d6073189b.webp",
     "static/media/zanzibar.webp": "/static/media/zanzibar.d08ab7eb86db3b9fa54d.webp",
     "static/media/ArgentinaFotoInicio.webp": "/static/media/ArgentinaFotoInicio.a9c7ac05cab0dbc9e559.webp",
     "static/media/ushuaia.webp": "/static/media/ushuaia.1f9f89297f74a25151da.webp",
@@ -27,12 +30,12 @@
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "static/media/Cart.svg": "/static/media/Cart.73111b1a38aea707b052cb3b4687d74b.svg",
     "index.html": "/index.html",
-    "main.ef866d92.css.map": "/static/css/main.ef866d92.css.map",
-    "main.c5245ab5.js.map": "/static/js/main.c5245ab5.js.map",
+    "main.d2f964ab.css.map": "/static/css/main.d2f964ab.css.map",
+    "main.303d08aa.js.map": "/static/js/main.303d08aa.js.map",
     "787.77abdc39.chunk.js.map": "/static/js/787.77abdc39.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef866d92.css",
-    "static/js/main.c5245ab5.js"
+    "static/css/main.d2f964ab.css",
+    "static/js/main.303d08aa.js"
   ]
 }
