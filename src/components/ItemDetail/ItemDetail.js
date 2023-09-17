@@ -1,7 +1,44 @@
 import './ItemDetail.css'
 import ItemCount from '../ItemCount/ItemCount'
+import { Link } from 'react-router-dom';
+import { useContext, useState } from 'react';
+import { CartContext } from '../../context/CartContext';
 
-const ItemDetail = ({ nombre, precio, descripcion, imagen, disponibilidad, fecha, regimen, hotel, itinerario, opcionalUno, opcionalDos, opcionalTres, preciOpcionalUno, preciOpcionalDos, preciOpcionalTres, disponibilidadOpcionales }) => {
+const ItemDetail = ({ id, nombre, precio, descripcion, imagen, disponibilidad, fecha, regimen, hotel, itinerario, opcionalUno, opcionalDos, opcionalTres, preciOpcionalUno, preciOpcionalDos, preciOpcionalTres, disponibilidadOpcionales }) => {
+    const [cantidadAgregada, setCantidadAgregada] = useState(0)
+
+    const { addItem } = useContext(CartContext)
+
+    const handleCantidad = (cantidad) => {
+        setCantidadAgregada(cantidad)
+
+        if (cantidad === 1){
+            precio = parseInt(precio * 1.15)
+        } else if (cantidad > 2){
+            precio = parseInt(precio * 0.85)
+        }
+
+        const item = {id, nombre, precio, opcionalUno, opcionalDos, opcionalTres, cantidadAgregadaOpcional1, preciOpcionalUno, cantidadAgregadaOpcional2, preciOpcionalDos, cantidadAgregadaOpcional3, preciOpcionalTres}
+
+        addItem(item, cantidad)
+    }
+
+    const [cantidadAgregadaOpcional1, setCantidad1] = useState(0)
+    const [cantidadAgregadaOpcional2, setCantidad2] = useState(0)
+    const [cantidadAgregadaOpcional3, setCantidad3] = useState(0)
+
+    const handleCantidad1 = (CantidadOpcionalUno) => {
+        setCantidad1(CantidadOpcionalUno)
+    }
+
+    const handleCantidad2 = (CantidadOpcionalDos) => {
+        setCantidad2(CantidadOpcionalDos)
+    }
+
+    const handleCantidad3 = (CantidadOpcionalTres) => {
+        setCantidad3(CantidadOpcionalTres)
+    }
+    
     return (
         <div className='contenedor-detalles-item'>
             <div className='container-fluid row'>
@@ -10,29 +47,53 @@ const ItemDetail = ({ nombre, precio, descripcion, imagen, disponibilidad, fecha
                     <img className='col-6 detalles-item-imagen' src={imagen} alt='' />
                     <div className='col-6'>
                         <h2 className='detalles-item-opcionales-titulo'>Nuestros Opcionales</h2>
-                        <p className='detalles-item-disponibilidad'>Lugares disponibles para los opcinales: {disponibilidadOpcionales}</p>
+                        <p className='detalles-item-disponibilidad'>Lugares disponibles para cada opcinal: {disponibilidadOpcionales}</p>
                         <div className='row d-flex justify-content-center align-items-center'>
-                            <div className='col-6'>
-                                <p className='detalles-item-opcionales-actividades'>{opcionalUno}, USD{preciOpcionalUno}.</p>
-                            </div>
-                            <div className='col-6'>
-                                <ItemCount inicial={0} disponibilidad={disponibilidadOpcionales} onAdd={(cantidad) => console.log('cantidad agregada', cantidad)} />
+                            <div className='col-12'>
+                                    {cantidadAgregadaOpcional1 > 0 ? (
+                                        <p className='detalles-item-tour-agregado'>Tour {opcionalUno} agregado - Lugares reservados: {cantidadAgregadaOpcional1}</p>
+                                    ) : (
+                                        <div className='row'>
+                                            <div className='col-6'>
+                                                <p className='detalles-item-opcionales-actividades'>{opcionalUno}, USD{preciOpcionalUno}.</p>
+                                            </div>
+                                            <div className='col-6'>
+                                                <ItemCount inicial={0} disponibilidad={disponibilidadOpcionales} onAdd={handleCantidad1} />
+                                            </div>
+                                        </div>
+                                    )}
                             </div>
                         </div>
                         <div className='row d-flex justify-content-center align-items-center'>
-                            <div className='col-6'>
-                            <p className='detalles-item-opcionales-actividades'>{opcionalDos}, USD{preciOpcionalDos}.</p>
-                            </div>
-                            <div className='col-6'>
-                                <ItemCount inicial={0} disponibilidad={disponibilidadOpcionales} onAdd={(cantidad) => console.log('cantidad agregada', cantidad)} />
+                            <div className='col-12'>
+                                    {cantidadAgregadaOpcional2 > 0 ? (
+                                        <p className='detalles-item-tour-agregado'>Tour {opcionalDos} agregado - Lugares reservados: {cantidadAgregadaOpcional2}</p>
+                                    ) : (
+                                        <div className='row'>
+                                            <div className='col-6'>
+                                                <p className='detalles-item-opcionales-actividades'>{opcionalDos}, USD{preciOpcionalDos}.</p>
+                                            </div>
+                                            <div className='col-6'>
+                                                <ItemCount inicial={0} disponibilidad={disponibilidadOpcionales} onAdd={handleCantidad2} />
+                                            </div>
+                                        </div>
+                                    )}
                             </div>
                         </div>
                         <div className='row d-flex justify-content-center align-items-center'>
-                            <div className='col-6'>
-                            <p className='detalles-item-opcionales-actividades'>{opcionalTres}, USD{preciOpcionalTres}.</p>
-                            </div>
-                            <div className='col-6'>
-                                <ItemCount inicial={0} disponibilidad={disponibilidadOpcionales} onAdd={(cantidad) => console.log('cantidad agregada', cantidad)} />
+                            <div className='col-12'>
+                                    {cantidadAgregadaOpcional3 > 0 ? (
+                                        <p className='detalles-item-tour-agregado'>Tour {opcionalTres} agregado - Lugares reservados: {cantidadAgregadaOpcional3}</p>
+                                    ) : (
+                                        <div className='row'>
+                                            <div className='col-6'>
+                                                <p className='detalles-item-opcionales-actividades'>{opcionalTres}, USD{preciOpcionalTres}.</p>
+                                            </div>
+                                            <div className='col-6'>
+                                                <ItemCount inicial={0} disponibilidad={disponibilidadOpcionales} onAdd={handleCantidad3} />
+                                            </div>
+                                        </div>
+                                    )}
                             </div>
                         </div>
                         <div className='row align-items-center'>
@@ -61,13 +122,21 @@ const ItemDetail = ({ nombre, precio, descripcion, imagen, disponibilidad, fecha
                             <p className='detalles-item-disponibilidad'>Lugares disponibles para este viaje: {disponibilidad}</p>
                             <p className='detalles-item-disponibilidad'>Fecha programada para el próximo viaje: {fecha}</p>
                             <div className='row d-flex justify-content-center align-items-center'>
-                            <div className='col-6'>
-                            <p className='detalles-item-opcionales-actividades'>Reservá esta excursión!!</p>
+                                <div className='col-12'>
+                                    {cantidadAgregada > 0 ? (
+                                        <Link to='/cart' className='boton-ir-carrito'>Ir al carrito</Link>
+                                    ) : (
+                                        <div className='row'>
+                                            <div className='col-6'>
+                                                <p className='detalles-item-opcionales-actividades'>Reservá esta excursión!!</p>
+                                            </div>
+                                            <div className='col-6'>
+                                                <ItemCount inicial={0} disponibilidad={disponibilidad} onAdd={handleCantidad}/>
+                                            </div>
+                                        </div>
+                                    )}
+                                </div>
                             </div>
-                            <div className='col-6'>
-                                <ItemCount inicial={0} disponibilidad={disponibilidad} onAdd={(cantidad) => console.log('cantidad agregada', cantidad)} />
-                            </div>
-                        </div>
                         </div>
                     </div>
                 </div>

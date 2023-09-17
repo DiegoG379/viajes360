@@ -1,0 +1,49 @@
+.contenedor-pagina-carrito{
+    min-height: calc(100vh - 260px);
+    max-height: calc(100vh - 260px);
+    overflow-y: auto;
+}
+
+.no-items-pagina-carrito{
+    margin: 100px auto 35px auto;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Fredericka the Great;
+    color: #003355;
+}
+
+.ir-tours-pagina-carrito{
+    margin: 25px auto 35px auto;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Nova Flat;
+    color: #00BBE3;
+}
+
+.boton-pagina-carrito{
+    width: 200px;
+    height: 40px;
+    margin: 20px;
+    padding: 5px;
+    font-family: Nova Flat;
+    font-size: 20px;
+    color: #ededed;
+    background-color: #00BBE3;
+    border: #003355 solid 3px;
+    text-decoration: none;
+}
+
+.boton-pagina-carrito:hover{
+    color: #ededed;
+    background-color: #003355;
+    border: solid #00BBE3 3px;
+}
+
+.precio-pagina-carrito{
+    padding-right: 225px;
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Nova Flat;
+    color: #00BBE3;
+}

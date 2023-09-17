@@ -6,14 +6,14 @@ import './ItemDetailContainer.css'
 
 
 const ItemDetailContainer = () => {
-    const [productos, definirProductos] = useState(null)
+    const [productos, setProductos] = useState(null)
 
     const { itemId } = useParams()
 
     useEffect(() => {
         getProductById(itemId)
             .then(response => {
-                definirProductos(response)
+                setProductos(response)
             })
             .catch(error => {
                 console.error(error)

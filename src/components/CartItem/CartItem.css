@@ -1,0 +1,40 @@
+.contenedor-tours-carrito{
+    width: 93%;
+    margin: 35px auto 0px auto;
+    margin-bottom: 35px;
+    padding-top: 15px;
+    border-bottom: 2px solid #003355;
+    box-shadow: 0px 8px 8px #003355;
+}
+
+.titulo-items-pagina-carrito{
+    margin: 10px auto 15px auto;
+    font-size: 55px;
+    font-family: Fredericka the Great;
+    color: #003355;
+}
+
+.detalle-items-pagina-carrito{
+    margin: -5px auto 5px auto;
+    font-size: 20px;
+    font-family: Nova Flat;
+    color: #00BBE3;
+}
+
+.boton-eliminar-pagina-carrito{
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    font-family: Nova Flat;
+    font-size: 20px;
+    color: #ededed;
+    background-color: #00BBE3;
+    border: #003355 solid 3px;
+    text-decoration: none;
+}
+
+.boton-eliminar-pagina-carrito:hover{
+    color: #ededed;
+    background-color: #003355;
+    border: solid #00BBE3 3px;
+}

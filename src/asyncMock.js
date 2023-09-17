@@ -37,7 +37,7 @@ const productos = [
     {id: 'uganda',  nombre: 'Uganda', precio: 2699, categoria: 'africa', imagen: productImage12, disponibilidad: 24, fecha: '25/12/2023', regimen: 'Pensión completa', hotel: 'Hotel Serengeti', descripcion: 'Uganda: Aventura en el Corazón de África', itinerario: 'Día 1: Llegada a Entebbe y traslado al Hotel Serengeti. Tiempo libre para aclimatarte. Día 2: Safari de día completo en el Parque Nacional de Queen Elizabeth, donde podrás avistar leones, elefantes, búfalos y más. Día 3: Excursión al Bosque Impenetrable de Bwindi, hogar de los gorilas de montaña. Trekking para ver a estos majestuosos primates (opcional). Día 4: Salida hacia Jinja y emocionante día de rafting en el río Nilo (opcional) o Visita al Santuario de Chimpancés en Ngamba Island de lo contrario día libre para recorrer la capital Kampala. Día 5: Partida del hotel hacia aeropuerto internacional de Entebbe', opcionalUno: 'Trekking Gorilas Bwindi', preciOpcionalUno: 200, opcionalDos: 'Rafting Río Nilo', preciOpcionalDos: 80, opcionalTres: 'Santuario de Chimpancés', preciOpcionalTres: 100, disponibilidadOpcionales: 36}
 ]
 
-export const obtenerProductos = () => {
+export const getProductos = () => {
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve(productos)

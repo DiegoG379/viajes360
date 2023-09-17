@@ -29,6 +29,7 @@
 
 .detalles-item-opcionales-actividades{
     font-family: Nova Flat;
+    color: #003355;
     font-size: 20px;
     text-align: right;
     padding-top: 15px;
@@ -65,6 +66,13 @@
     color: #003355;
 }
 
+.detalles-item-tour-agregado{
+    font-family: Nova Flat;
+    font-weight: bold;
+    font-size: 23px;
+    color: #00BBE3;
+}
+
 .detalles-item-descripcion{
     font-family: Fredericka the Great;
     font-size: 40px;
@@ -88,4 +96,20 @@
     background-color: #ededed;
     padding: 15px;
     margin-top: 35px;
+}
+
+.boton-ir-carrito{
+    padding: 7px;
+    font-family: Nova Flat;
+    font-size: 20px;
+    color: #ededed;
+    background-color: #003355;
+    border: #00BBE3 solid 3px;
+    text-decoration: none;
+}
+
+.boton-ir-carrito:hover{
+    color: #ededed;
+    background-color: #00BBE3;
+    border: solid #003355 3px;
 }
