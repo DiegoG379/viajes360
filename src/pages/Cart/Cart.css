@@ -13,11 +13,16 @@
 }
 
 .ir-tours-pagina-carrito{
+    padding: 3px 15px 3px 15px;
     margin: 25px auto 35px auto;
     font-size: 25px;
     font-weight: bold;
     font-family: Nova Flat;
     color: #00BBE3;
+}
+.ir-tours-pagina-carrito:hover{
+    background-color: #00BBE3;
+    color: #ededed;
 }
 
 .boton-pagina-carrito{

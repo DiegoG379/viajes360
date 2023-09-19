@@ -51,3 +51,25 @@
     font-size: 23px;
     font-weight: bold;
 }
+
+.my-custom-alert-popup{
+    background-color: #ededed;
+    font-family: Nova Flat;
+    font-size: 20px;
+    color: #003355;
+}
+
+.my-custom-confirm-button{
+    padding: 7px 15px 7px 10px;
+    font-family: Nova Flat;
+    font-size: 20px;
+    color: #ededed;
+    background-color: #003355 !important;
+    border: #00BBE3 solid 3px !important;
+}
+
+.my-custom-confirm-button:hover{
+    color: #ededed;
+    background-color: #00BBE3 !important;
+    border: solid #003355 3px !important;
+}

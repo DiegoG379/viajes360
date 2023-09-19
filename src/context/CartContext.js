@@ -1,4 +1,5 @@
 import { createContext, useState } from "react";
+import Swal from 'sweetalert2'
 
 export const CartContext = createContext ({
     cart: []
@@ -11,7 +12,17 @@ export const CartProvider = ({ children }) => {
         if (!isInCart(item.id)){
             setCart(prev => [...prev, {...item, cantidad}])
         } else {
-            alert('El producto ya se agregó')
+            Swal.fire({
+                title: 'ATENCIÓN',
+                text: 'El tour seleccionado ya se encuentra en el carrito',
+                icon: 'info',
+                buttonsStyling: false,
+                confirmButtonText: 'Aceptar',
+                customClass: {
+                    popup: 'my-custom-alert-popup',
+                    confirmButton: 'my-custom-confirm-button'
+                }
+            })
         }
     }
 

@@ -8,7 +8,7 @@ import ContactPageItems from './pages/ContactPageItems/ContactPageItems'
 import PageNotFound from './pages/PageNotFound/PageNotFound'
 import Footer from './layout/Footer/Footer'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
-import Cart from './components/Cart/Cart'
+import Cart from './pages/Cart/Cart'
 
 function App() {
   return (

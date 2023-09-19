@@ -23,7 +23,7 @@ const CartItem = ({id, nombre, cantidad, precio, opcionalUno, opcionalDos, opcio
     return precioTotalOpcionales
   }
 
-  const precioTotalTourConOpcionales = precio * cantidad + calcularPrecioOpcionales();
+  const precioTotalTourConOpcionales = precio * cantidad + calcularPrecioOpcionales()
 
   return (
     <div className='contenedor-tours-carrito'>
@@ -57,9 +57,7 @@ const CartItem = ({id, nombre, cantidad, precio, opcionalUno, opcionalDos, opcio
         </div>
       </div>
   </div>
-
-
   )
 }
 
-export default CartItem;
+export default CartItem

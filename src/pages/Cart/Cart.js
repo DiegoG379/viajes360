@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import { CartContext } from '../../context/CartContext'
 import { Link } from 'react-router-dom'
-import CartItem from '../CartItem/CartItem'
+import CartItem from '../../components/CartItem/CartItem'
 import './Cart.css'
 
 
@@ -23,7 +23,7 @@ const Cart = () => {
             <h3 className='precio-pagina-carrito'>Total a pagar: <span style={{ color: '#003355', fontWeight: 'bold' }}>USD {getTotalCost()}</span></h3>
             <div className='d-flex justify-content-center align-items-center text-center'>
                 <button className='boton-pagina-carrito' onClick={() => clearCart()}>Limpiar carrito</button>
-                <Link className='boton-pagina-carrito ir-tours-pagina-carrito' to='/tours/'>Seguir comprando</Link>
+                <Link className='boton-pagina-carrito' to='/tours/'>Agregar otro Tour</Link>
                 <Link className='boton-pagina-carrito' to='/checkout/'>Realizar pago</Link>
             </div>
         </div>

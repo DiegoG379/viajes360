@@ -1,19 +1,30 @@
 import React, { useState } from 'react'
 import './CurrencyConverter.css'
+import Swal from 'sweetalert2'
 
 function CurrencyConverter() {
-    const [monto, setMonto] = useState('');
-    const [monedaDe, setMonedaDe] = useState('UYU');
-    const [monedaA, setMonedaA] = useState('USD');
-    const [resultado, setResultado] = useState('');
+    const [monto, setMonto] = useState('')
+    const [monedaDe, setMonedaDe] = useState('UYU')
+    const [monedaA, setMonedaA] = useState('USD')
+    const [resultado, setResultado] = useState('')
 
     const handleConvertirDivisa = async () => {
-    if (isNaN(monto) || monto.trim() === '') {
-    alert('Ingrese un monto válido');
-    return;
+    if (isNaN(monto) || monto.trim() === '' || monto <= 0) {
+        Swal.fire({
+            title: 'ERROR',
+            text: 'El monto ingresado no es válido',
+            icon: 'info',
+            buttonsStyling: false,
+            confirmButtonText: 'Aceptar',
+            customClass: {
+                popup: 'my-custom-alert-popup',
+                confirmButton: 'my-custom-confirm-button'
+            }
+        })
+    return
     }
 
-    const url = `https://currency-converter-by-api-ninjas.p.rapidapi.com/v1/convertcurrency?have=${monedaDe}&want=${monedaA}&amount=${monto}`;
+    const url = `https://currency-converter-by-api-ninjas.p.rapidapi.com/v1/convertcurrency?have=${monedaDe}&want=${monedaA}&amount=${monto}`
 
     try {
         const response = await fetch(url, {
@@ -22,13 +33,23 @@ function CurrencyConverter() {
             'X-RapidAPI-Key': '1ae058be27mshbc8100951fb20b8p1c6c17jsn8ea181589eae',
             'X-RapidAPI-Host': 'currency-converter-by-api-ninjas.p.rapidapi.com',
         },
-    });
-    const result = await response.json();
-    setResultado(`${monto} ${monedaDe} = ${result.new_amount} ${monedaA}`);
+    })
+    const result = await response.json()
+    setResultado(`${monto} ${monedaDe} = ${result.new_amount} ${monedaA}`)
     } catch (error) {
-        alert('Ocurrió un error. Inténtalo nuevamente más tarde.');
+        Swal.fire({
+            title: 'ERROR',
+            text: 'Hubo un problema al obtener la tasa de cambio',
+            icon: 'info',
+            buttonsStyling: false,
+            confirmButtonText: 'Aceptar',
+            customClass: {
+                popup: 'my-custom-alert-popup',
+                confirmButton: 'my-custom-confirm-button'
+            }
+        })        
     }
-};
+}
 
 return (
     <div className='mx-auto container-fluid row d-flex justify-content-center contenedor-conversor-inicio' style={{ marginTop: '35px' }}>
@@ -56,7 +77,7 @@ return (
             <p className='conversor-resultados-inicio'><strong style={{ color: '#003355' }}>Resultado: </strong> {resultado}</p>
         </div>
     </div>
-);  
+)
 }
 
 export default CurrencyConverter
