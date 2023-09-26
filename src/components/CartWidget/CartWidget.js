@@ -6,12 +6,12 @@ import './CartWidget.css'
 
 
 const CartWidget = () => {
-    const { getTotalQuantity } = useContext(CartContext)
+    const { getTotalQuantityCart } = useContext(CartContext)
 
     return(
         <Link to='/cart' className='color-item-carrito d-flex justify-content-center align-items-center text-decoration-none'>
             <img className='carrito-logo' src={Cart} alt="carritoCompras"/>
-            <p>{ getTotalQuantity() }</p>
+            <p>{ getTotalQuantityCart() }</p>
         </Link>
     )
 }

@@ -18,7 +18,7 @@ function App() {
           <NavBar/>
             <Routes>
               <Route path='/' element={<HomePage/>}/>
-              <Route path='/tours/' element={<ItemListContainer titulo={'Nuestros Tours'}/>}/>
+              <Route path='/tours/' element={<ItemListContainer/>}/>
               <Route path='/tours/category/:categoryId' element={<ItemListContainer titulo={'Nuestros Tours'}/>}/>
               <Route path='/tours/item/:itemId' element={<ItemDetailContainer/>}/>
               <Route path='/contacto' element={<ContactPageItems/>}/>

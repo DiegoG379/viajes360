@@ -1,4 +1,4 @@
-import { createContext, useState } from "react";
+import { createContext, useState } from "react"
 import Swal from 'sweetalert2'
 
 export const CartContext = createContext ({
@@ -40,7 +40,7 @@ export const CartProvider = ({ children }) => {
     }
 
     const getTotalQuantity = () => {
-        let totalQuantity = 0;
+        let totalQuantity = 0
     
         for (const item of cart) {
             totalQuantity += item.cantidad
@@ -50,11 +50,11 @@ export const CartProvider = ({ children }) => {
             totalQuantity += item.cantidadAgregadaOpcional3
         }
     
-        return totalQuantity;
-    };
+        return totalQuantity
+    }
 
     const getTotalCost = () => {
-        let totalCost = 0;
+        let totalCost = 0
     
         for (const item of cart) {
             const costoProductoPrincipal = item.precio * item.cantidad
@@ -71,8 +71,14 @@ export const CartProvider = ({ children }) => {
         return totalCost
     }
 
+    const getTotalQuantityCart = () => {
+        let totalQuantityCart = cart.length
+    
+        return totalQuantityCart
+    }
+
     return(
-        <CartContext.Provider value={{cart, addItem, removeItem, clearCart, getTotalQuantity, getTotalCost}}>
+        <CartContext.Provider value={{cart, addItem, removeItem, clearCart, getTotalQuantity, getTotalCost, getTotalQuantityCart}}>
             {children}
         </CartContext.Provider>
     )
