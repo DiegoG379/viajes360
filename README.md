@@ -1,7 +1,29 @@
 # 💫 About Me:
-En esta primera entrega de mi proyecto para el curso de ReactJS en Coderhouse, presento Viajeros360, mi sitio web de e-commerce especializado en la venta de excursiones y experiencias de viaje. Donde el usuario simulará estar en una página de viajes y podrá simular la compra de tours y agregar excursiones opcionales en su destino.
+En esta entrega final de mi proyecto para el curso de ReactJS en Coderhouse, presento Viajeros360, mi página web de e-commerce ficticia creada para implementar y demostrar los conocimientos adquiridos en el curso.
 
-He utilizado tecnología de React y Bootstrap, junto con la librería de Font Awesome para mejorar la experiencia visual del sitio.
+Viajeros360 se concibió como un ejercicio práctico destinado a aplicar de manera creativa los conceptos aprendidos en ReactJS. Aunque ficticia, la plataforma simula un sitio de e-commerce especializado en la venta de excursiones y experiencias de viaje. A través de Viajeros360, los usuarios pueden sumergirse en una simulación de compra de tours y agregar excursiones opcionales.
+
+El propósito central de este proyecto es consolidar y poner en práctica las habilidades y conceptos adquiridos durante el curso de ReactJS. Aunque los destinos mencionados son lugares reales, es importante destacar que la información asociada, como precios, itinerarios, teléfonos, correos electrónicos, direcciones y otros detalles de contacto, es completamente ficticia. No se busca inspirar ni informar en términos de contenido real; más bien, se pretende proporcionar una experiencia única desde el punto de vista del desarrollo web y la implementación de componentes interactivos.
+
+He aplicado tecnología de React y Bootstrap de manera estratégica, aprovechando especialmente grids y clases puntuales para lograr una disposición visual atractiva. Los estilos fueron personalizados con CSS para adaptarse a la estética deseada. Integré la librería Font Awesome para destacar las redes sociales con iconos específicos. Además, utilicé Sweet Alert 2 para alertas amigables, Firebase para gestionar catálogos y órdenes de compra, Cloudinary para almacenar eficientemente las imágenes de productos, y una API de conversión de divisas para proporcionar una funcionalidad adicional.
+
+La navegación fluida y organizada en todo el sitio se garantiza gracias a la implementación de React Router DOM. Esta combinación de tecnologías y servicios contribuye a una experiencia integral, fusionando la eficiencia de Bootstrap y React con la versatilidad de Font Awesome, Sweet Alert 2, Firebase, Cloudinary, la API de conversión de divisas y React Router DOM.
+
+
+### Instrucciones para Ejecutar
+
+### Requisitos Previos
+
+Asegúrate de tener [Node.js](https://nodejs.org/) y [npm](https://www.npmjs.com/) instalados en tu máquina.
+
+### Pasos
+
+1 - Instalar Dependencias:
+npm install
+
+2 - Iniciar el Servidor de Desarrollo:
+npm start
+La aplicación estará disponible en http://localhost:3000/.
 
 
 ## 🌐 Socials:
