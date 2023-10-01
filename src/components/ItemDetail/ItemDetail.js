@@ -148,7 +148,7 @@ const ItemDetail = ({ id, nombre, precio, descripcion, imagen, disponibilidad, f
             </div>
         </div>
 
-    );
-};
+    )
+}
 
 export default ItemDetail
