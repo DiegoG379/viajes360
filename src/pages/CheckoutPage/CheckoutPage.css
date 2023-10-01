@@ -1,0 +1,35 @@
+.contenedor-pagina-compra{
+    min-height: calc(100vh - 260px);
+    max-height: calc(100vh - 260px);
+    overflow-y: auto;
+}
+
+.titulo-pagina-compra{
+    margin: 30px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Fredericka the Great;
+    color: #003355;
+}
+
+.contenedor-texto-pagina-compra{
+    margin: 25px auto 25px auto !important;
+    padding: 15px;
+    border-bottom: 2px solid #003355;
+    box-shadow: 0px 8px 8px #003355;
+    width: 80%;
+}
+
+.texto-pagina-compra{
+    font-family: Nova Flat;
+    font-size: 20px;
+    color: #00BBE3;
+    font-weight: bold;
+}
+
+.span-pagina-compra{
+    font-weight: bold;
+    color: #003355;
+    font-size: 22px;
+}

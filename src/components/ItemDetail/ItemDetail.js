@@ -1,8 +1,8 @@
 import './ItemDetail.css'
 import ItemCount from '../ItemCount/ItemCount'
-import { Link } from 'react-router-dom';
-import { useContext, useState } from 'react';
-import { CartContext } from '../../context/CartContext';
+import { Link } from 'react-router-dom'
+import { useContext, useState } from 'react'
+import { CartContext } from '../../context/CartContext'
 
 const ItemDetail = ({ id, nombre, precio, descripcion, imagen, disponibilidad, fecha, regimen, hotel, itinerario, opcionalUno, opcionalDos, opcionalTres, preciOpcionalUno, preciOpcionalDos, preciOpcionalTres, disponibilidadOpcionales }) => {
     const [cantidadAgregada, setCantidadAgregada] = useState(0)

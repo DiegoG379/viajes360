@@ -9,6 +9,7 @@ import PageNotFound from './pages/PageNotFound/PageNotFound'
 import Footer from './layout/Footer/Footer'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
 import Cart from './pages/Cart/Cart'
+import Checkout from './components/Checkout/Checkout'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
               <Route path='/tours/item/:itemId' element={<ItemDetailContainer/>}/>
               <Route path='/contacto' element={<ContactPageItems/>}/>
               <Route path='/cart' element={<Cart/>}/>
+              <Route path='/checkout' element={<Checkout/>}/>
               <Route path='*' element={<PageNotFound/>}/>
             </Routes>
           <Footer/>

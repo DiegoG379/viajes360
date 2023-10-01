@@ -1,0 +1,45 @@
+.formulario-pagina-formulario{
+    border-bottom: 2px solid #003355;
+    box-shadow: 0px 8px 8px #003355;
+}
+
+.label-pagina-formulario{
+    text-align: center;
+    font-size: 20px;
+    font-family: Nova Flat;
+    font-weight: bold;
+    color: #003355;
+    background-color: #ededed;
+    border-bottom: 2px solid #00BBE3;
+    border-top: 2px solid #00BBE3;
+    border-left: 2px solid #00BBE3;
+    border-right: 2px solid #ededed;
+}
+
+.input-pagina-formulario{
+    text-align: center;
+    font-size: 20px;
+    font-family: Nova Flat;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #00BBE3;
+    background-color: #ededed;
+    border: 2px solid #003355;
+}
+
+
+.boton-pagina-formulario{
+    margin: 7px;
+    font-family: Nova Flat;
+    font-size: 20px;
+    color: #ededed;
+    background-color: #003355;
+    border: #00BBE3 solid 3px;
+    text-decoration: none;
+}
+
+.boton-pagina-formulario:hover{
+    color: #ededed;
+    background-color: #00BBE3;
+    border: solid #003355 3px;
+}
