@@ -4,6 +4,22 @@ En esta segunda entrega de mi proyecto para el curso de ReactJS en Coderhouse, p
 He utilizado tecnología de React y Bootstrap, junto con la librería de Font Awesome, para mejorar la experiencia visual del sitio. Además, he implementado una API de conversión de divisas y he incorporado React Router DOM para garantizar una navegación suave y organizada en todo el sitio.
 
 
+### Instrucciones para Ejecutar
+
+### Requisitos Previos
+
+Asegúrate de tener [Node.js](https://nodejs.org/) y [npm](https://www.npmjs.com/) instalados en tu máquina.
+
+### Pasos
+
+1 - Instalar Dependencias:
+npm install
+
+2 - Iniciar el Servidor de Desarrollo:
+npm start
+La aplicación estará disponible en http://localhost:3000/.
+
+
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/diego-garcía-muniz) 
 
