@@ -47,7 +47,7 @@ const ItemDetail = ({ id, nombre, precio, descripcion, imagen, disponibilidad, f
                     <img className='col-6 detalles-item-imagen' src={imagen} alt='' />
                     <div className='col-6'>
                         <h2 className='detalles-item-opcionales-titulo'>Nuestros Opcionales</h2>
-                        <p className='detalles-item-disponibilidad'>Lugares disponibles para cada opcinal: {disponibilidadOpcionales}</p>
+                        <p className='detalles-item-disponibilidad'>Lugares disponibles para cada opcional: {disponibilidadOpcionales}</p>
                         <div className='row d-flex justify-content-center align-items-center'>
                             <div className='col-12'>
                                     {cantidadAgregadaOpcional1 > 0 ? (
