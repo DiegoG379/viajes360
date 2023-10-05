@@ -31,7 +31,7 @@ function App() {
           </CartProvider>
       </BrowserRouter>
     </div>
-  );
+  )
 }
 
 export default App
